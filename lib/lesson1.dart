@@ -3,7 +3,7 @@ int calculate() {
 }
 
 int divide(int a, int b) {
-  return a % b;
+  return a;
   // if (b != null && b != 0) {
   //   return a % b;
   // } else {
