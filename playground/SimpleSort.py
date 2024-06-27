@@ -1,11 +1,14 @@
 import random
-m=[random.randint(0,100) for x in range(11)]
+import copy
+arr=[random.randint(0,100) for x in range(11)]
 
-def sort(A)->int:
-    for i in range(len(A)):
-        for j in range(len(A) - i - 1):
-            if A[j + 1] < A[j]:
-                A[j], A[j + 1] = A[j + 1], A[j]
-    return A
-print(m)
-print(sort(m))
+def sort(int:arr)->int:
+    carr=copy.copy(arr)
+    for i in range(len(carr)):
+        for j in range(len(carr) - i - 1):
+            if carr[j + 1] < carr[j]:
+                carr[j], carr[j + 1] = carr[j + 1], carr[j]
+    return carr
+print(arr)
+print(sort(arr))
+print(arr)
