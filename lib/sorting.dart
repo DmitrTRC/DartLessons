@@ -5,7 +5,3 @@ List<int> mySort(List<int> arr) {
   return arr;
 }
 
-List<T> mySort2<T extends Comparable>(List<T> arr) {
-  arr.sort();
-  return arr;
-}

@@ -40,3 +40,7 @@ H
 playground/SimpleSort.py,6/3/6392db213a01e422bb2805294e8b5451fedd478a
 F
 playground/sort_2.dart,6/9/69605f2541df3fd492cb4f013526151bb8fa11fa
+U
+%homework/theBoldGuy/insertion_sort.py,d/b/db1be37de5c29aa1fbb180577adbe9b84dbd4569
+W
+'homework/theBoldGuy/insertion_sort.dart,d/9/d9520fb7b6b77feb66f38f38ae7cfc43432ff4a7
