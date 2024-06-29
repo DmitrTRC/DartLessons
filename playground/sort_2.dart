@@ -1,10 +1,16 @@
-List<int> mysort(List<int> list) {
-  List<int> cloned = List.from(list);
+void swap<T>(T a, T b) {
+  T temp = a;
+  a = b;
+  b = temp;
+}
+
+List<T> mysort<T extends Comparable>(List<T> list) {
+  List<T> cloned = List.from(list);
 
   for (int i = 0; i < cloned.length; i++) {
     for (int j = 0; j < cloned.length - i - 1; j++) {
-      if (cloned[j + 1] < cloned[j]) {
-        int temp = cloned[j];
+      if (cloned[j + 1].compareTo(cloned[j]) < 0) {
+        T temp = cloned[j];
         cloned[j] = cloned[j + 1];
         cloned[j + 1] = temp;
       }
@@ -14,6 +20,6 @@ List<int> mysort(List<int> list) {
 }
 
 void main() {
-  List<int> l = [6, 90, 9, 10];
+  List<String> l = ['A', 'C', 'A', 'C'];
   print(mysort(l));
 }
