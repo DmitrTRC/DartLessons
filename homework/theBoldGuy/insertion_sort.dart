@@ -1,11 +1,11 @@
-List<int> insertionSort(List<int> arr, low, high) {
-  List<int> sortedArr =  List.from(arr);
+List<String> insertionSort(List<String> arr, low, high) {
+  List<String> sortedArr =  List.from(arr);
 
   for (int i = low +1; i <= high; i++) {
-    int key = sortedArr[i];
+    String key = sortedArr[i];
     int j = i - 1;
 
-    while (j >= low && sortedArr[j] > key) {
+    while (j >= low && sortedArr[j].compareTo(key) > 0) {
       sortedArr[j+1] = sortedArr[j];
       j--;
     }
@@ -15,8 +15,8 @@ List<int> insertionSort(List<int> arr, low, high) {
 }
 
 void main() {
-  List<int> arrMain = [45, 15, 0, -4, 76, 888, 345];
-  List<int> sortedArrMain = insertionSort(arrMain, 0, arrMain.length - 1);
+  List<String> arrMain = ['c', 'k', 'books', '-4', 'fire', 'cat', 'align'];
+  List<String> sortedArrMain = insertionSort(arrMain, 0, arrMain.length - 1);
 
   print('Base array: $arrMain');
   print('Sorted array: $sortedArrMain');
