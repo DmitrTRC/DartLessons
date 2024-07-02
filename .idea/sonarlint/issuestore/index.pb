@@ -20,8 +20,6 @@ E
 -.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
 @
 lib/lesson1.dart,2/a/2a0c18da4c0a63e03e998db1111f07fa2993dc16
-F
-test/lesson1_test.dart,4/a/4a437ea25edc18468cd63c87185c5ad23e140e37
 <
 pubspec.yaml,e/8/e8e045469170189f1d6ef12576bd01af132b1018
 w
@@ -34,13 +32,15 @@ L
 .idea/libraries/Dart_SDK.xml,a/9/a9cc79449f536988c9a3fd2c84e3dfda3be04f09
 \
 ,.idea/inspectionProfiles/Project_Default.xml,4/9/496a238a6afa168dbaf6efd37bb459331589579c
-@
-lib/sorting.dart,6/e/6e47a5c97734cc5463ca7bb6030a98f9c2e2c344
-H
-playground/SimpleSort.py,6/3/6392db213a01e422bb2805294e8b5451fedd478a
 F
 playground/sort_2.dart,6/9/69605f2541df3fd492cb4f013526151bb8fa11fa
-U
-%homework/theBoldGuy/insertion_sort.py,d/b/db1be37de5c29aa1fbb180577adbe9b84dbd4569
 W
 'homework/theBoldGuy/insertion_sort.dart,d/9/d9520fb7b6b77feb66f38f38ae7cfc43432ff4a7
+[
++homework/theBoldGuy/insertion_sort_all.dart,e/e/ee2c6e5a0abdf89e80cc5f478c7bb23c24f593ae
+F
+test/lesson2_test.dart,7/c/7c51923074d4182531492d34c4a88a55e667b173
+F
+test/sorting_test.dart,3/c/3ca0914d97841d688b99597f177efeb4abaf69c2
+>
+lib/qsort.dart,e/a/eac7b36cd5b0b8acf2dba7375edc07429f7d8d55
