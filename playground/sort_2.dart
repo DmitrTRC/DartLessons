@@ -1,7 +1,8 @@
-void swap<T>(T a, T b) {
-  T temp = a;
-  a = b;
-  b = temp;
+
+void swap<T>(List<T> list, int index1, int index2) {
+  T temp = list[index1];
+  list[index1] = list[index2];
+  list[index2] = temp;
 }
 
 List<T> mysort<T extends Comparable>(List<T> list) {
@@ -10,9 +11,7 @@ List<T> mysort<T extends Comparable>(List<T> list) {
   for (int i = 0; i < cloned.length; i++) {
     for (int j = 0; j < cloned.length - i - 1; j++) {
       if (cloned[j + 1].compareTo(cloned[j]) < 0) {
-        T temp = cloned[j];
-        cloned[j] = cloned[j + 1];
-        cloned[j + 1] = temp;
+        swap(cloned,j+1,j);
       }
     }
   }
