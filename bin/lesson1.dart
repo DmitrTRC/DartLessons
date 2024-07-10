@@ -13,7 +13,6 @@ void main(List<String> arguments) {
   var (a, b, c) = t;
   // Equal c++ dynamic_cast<std::tuple<std::string, int, bool>>
 
-  print('Dividing = ${l1.divide(a, b)}');
 }
 
 // std::Vector <std::String> arguments;
